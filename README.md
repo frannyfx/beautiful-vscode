@@ -64,7 +64,7 @@ Not to worry, I've already done it for you.
 
 I know it looks like a jumbled mess but only machines understand CSS nowadays anyway, so stop complaining.
 
-### 🔥 Some opinionated customisations
+## 🔥 Some opinionated customisations
 Realistically, you don't need half the shit that VSCode plonks on your screen every time you open it. If you wanna go full Zen mode, add the following customisations too. Be real, you don't look at the minimap.
 
 ```json
@@ -76,5 +76,5 @@ Realistically, you don't need half the shit that VSCode plonks on your screen ev
 
 Now you're all set! Star this repo if you found it helpful and go impress everyone with your elusive VSCode configuration.
 
-### ⚠️ Caveats
+## ⚠️ Caveats
 Don't expect this to work perfectly. This is obviously gonna be quite janky, you should only run this if you're confortable with a few UI glitches and issues.
