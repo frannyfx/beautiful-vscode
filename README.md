@@ -43,23 +43,22 @@ Not to worry, I've already done it for you.
 	"window.titleBarStyle": "custom",
 	"customizeUI.titleBar": "inline",
 	"customizeUI.stylesheet": {
-        ".statusbar": "background-color: transparent !important",
-        "#workbench.parts.statusbar": "background-color: transparent !important",
-        ".editor": "border-radius: 5px; background-color: transparent; overflow: hidden;",
-        ".editor .content, .monaco-workbench .part.panel .pane-body.integrated-terminal .terminal-outer-container": "background-color: rgba(28, 30, 38, 0.5) !important",
-        ".title, .tabs, .tab, .activity-bar-placeholder, .monaco-editor, .monaco-editor-background, .monaco-editor .inputarea.ime-input, .monaco-editor .margin, .editor-container, .part.panel": "background-color: transparent !important",
-        ".pane-header": "background-color: transparent !important;",
-        ".editor > content": "background-color: rgb(28, 30, 38) !important; border-radius: 10px;",
-        ".composite.title > .title-label, .window-title, .activity-bar-placeholder": "display: none !important",
-        ".sidebar > .content": "margin-top: 5px !important",
-        ".sidebar .shadow": "display: none !important",
-        ".monaco-workbench .part.sidebar .title-actions .actions-container": "justify-content: space-evenly !important",
-        ".scrollbar .slider": "border-radius: 20px",
-        ".part.panel .composite.title": "border-top: none !important" ,
-        ".monaco-workbench .part.panel .pane-body.integrated-terminal .terminal-outer-container": "border-radius: 5px"
-    },
+		".statusbar": "background-color: transparent !important",
+		"#workbench.parts.statusbar": "background-color: transparent !important",
+		".editor": "border-radius: 5px; background-color: transparent; overflow: hidden;",
+		".editor .content, .monaco-workbench .part.panel .pane-body.integrated-terminal .terminal-outer-container": "background-color: rgba(28, 30, 38, 0.5) !important",
+		".title, .tabs, .tab, .activity-bar-placeholder, .monaco-editor, .monaco-editor-background, .monaco-editor .inputarea.ime-input, .monaco-editor .margin, .editor-container, .part.panel": "background-color: transparent !important",
+		".pane-header": "background-color: transparent !important;",
+		".editor > content": "background-color: rgb(28, 30, 38) !important; border-radius: 10px;",
+		".composite.title > .title-label, .window-title, .activity-bar-placeholder": "display: none !important",
+		".sidebar > .content": "margin-top: 5px !important",
+		".sidebar .shadow": "display: none !important",
+		".monaco-workbench .part.sidebar .title-actions .actions-container": "justify-content: space-evenly !important",
+		".scrollbar .slider": "border-radius: 20px",
+		".part.panel .composite.title": "border-top: none !important" ,
+		".monaco-workbench .part.panel .pane-body.integrated-terminal .terminal-outer-container": "border-radius: 5px"
+	},
 	"vscode_vibrancy.theme": "Dark (Only Subbar)",
-	...
 }
 ```
 
@@ -71,8 +70,7 @@ Realistically, you don't need half the shit that VSCode plonks on your screen ev
 ```json
 {
 	"editor.minimap.enabled": false,
-	"breadcrumbs.enabled": false,
-	...
+	"breadcrumbs.enabled": false
 }
 ```
 
